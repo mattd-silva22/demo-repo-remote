@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(13, 40, 63);
+    font-size: 1.5em;
+    font-family: Helvetica (sans-serif);
+}
+
+#container {
+    height: 100%;
+
+}
+
+/* style header */
+
+#logo {
+    margin-left: 1.5vw;
+    line-height: 10vh ;
+}
+
+#logo h1 {
+    color: azure
+}
+
+#logo span {
+    color: rgb(0, 255, 0);
+}
+    
+header {
+    height: 10vh;
+    background: rgb(6, 10, 39);
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-header li {
+    display: inline;
+    line-height: 10vh;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+#nav-header ul {
+    margin-right:2vw;
+}
+
+#nav-header a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-header a:hover {
+    color: grey;
+}
