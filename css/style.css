@@ -28,7 +28,7 @@ header {
     
 }
 
-#ham-btn {
+button.hamburger {
     display: none;
 }
 
@@ -305,7 +305,7 @@ section#bootcamp  {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 750px) {
     #banner-area-container {
         display: flex;
         flex-direction: column-reverse;
@@ -335,8 +335,8 @@ section#bootcamp  {
     }
     
 
-    #ham-btn {
-        display: inline;
+    button.hamburger {
+        display: flex;
     }
 
     #bootcamp-container {
@@ -363,6 +363,10 @@ section#bootcamp  {
     #banner-text-box-right img {
         width: 30rem;
         
+    }
+
+    #logo-area a {
+        font-size: 1.4rem;
     }
 
     
