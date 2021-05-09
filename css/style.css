@@ -102,7 +102,7 @@ section#banner-area {
 #banner-text-box-left {
     width: 70%;
 }
-#banner-text-box-left p, button{
+#banner-text-box-left p, button#banner-btn {
     margin: 15px;
 }
 
@@ -115,7 +115,7 @@ section#banner-area {
     color: rgb(83, 83, 83);
 }
 
-#banner-text-box-left button {
+#banner-text-box-left button#banner-btn {
     color:white;
     background-color: #7758C0;
     border: solid #7758C0 ;
@@ -126,7 +126,7 @@ section#banner-area {
     max-width: 400px;
 }
 
-#banner-text-box-left button:hover {
+#banner-text-box-left button#banner-btn:hover {
     /* background-color: #9f5f80;
     border: solid #583D72 ; */
     color: gold;
@@ -291,6 +291,49 @@ section#bootcamp  {
 }
 
 
+
+
+section#form {
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: #7758C0;
+    height: 35vh;
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    max-width: 980px;
+    margin: 15px;
+
+    background-color: white;
+
+}
+
+
+.form-group {
+    border: 1px solid red;
+}
+
+.form-group:nth-child(1) {
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 15px;
+}
+
+.form-group:nth-child(2), .form-group:nth-child(3) {
+    width: 40%;
+    text-align: left;
+    font-size: 1.8rem;
+}
 
 
 @media (max-width: 980px) {
