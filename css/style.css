@@ -318,40 +318,6 @@ form {
 }
 
 
-.form-group {
-    
-    margin: 5px;
-}
-
-.form-group:nth-child(1) {
-    width: 100%;
-    font-size: 1.8rem;
-    text-align: center;
-    margin: 15px;
-}
-
-.form-group:nth-child(2), .form-group:nth-child(3) {
-    width: 45%;
-    text-align: center;
-    font-size: 1.8rem;
-}
-
-.form-group input  {
-    width: 90%;
-    height: 35px;
-    font-size: 2.1rem;
-}
-
-.form-group button {
-    color:white;
-    background-color: #7758C0;
-    border: solid #7758C0 ;
-    border-radius: 10px ;
-    font-size: 1.6rem;
-    width: 100px;
-    height: 50px;
-    max-width: 400px;
-}
 
 
 @media (max-width: 980px) {
